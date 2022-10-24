@@ -1,0 +1,48 @@
+//Layout of Projct
+
+//Container devices
+
+$container-xl: 1440px;
+$container-l: 1140px;
+$container-m: 960px;
+$container-s: 540px;
+
+//Mixinsof media query
+
+@mixin responsive($device){ 
+    //se $device for igual a xl faça
+    @if $device == xl{ 
+        //resolução minima de $container-xl = 1440px
+        @media screen and (min-width: $container-xl){
+            @content;
+        }
+    }
+
+    @else if $device == l{   //para dispositivos de 1140px até 1440px
+        //resolução maxima de $container-xl = 1440px
+        @media screen and (max-width: $container-xl) and (min-width: $container-l){
+            @content;
+        }
+    }
+
+    @else if $device == m{ //para dispositivos de 960px até 1140px
+        //resolução maxima de $container-xl = 1440px
+        @media screen and (max-width: $container-l) and (min-width: $container-m){
+            @content;
+        }
+    }
+
+    @else if $device == s{ //para dispositivos menor que 960px 
+ 
+        @media screen and (max-width: $container-m) {
+            @content;
+        }
+    }
+
+    @else if $device == xs{ //para dispositivos menor que 540px 
+       
+        @media screen and (max-width: $container-s ) {
+            @content;
+        }
+    }
+}
