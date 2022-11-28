@@ -195,6 +195,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 800;
   background-color: red;
 }
 
@@ -311,7 +312,6 @@ header {
   position: relative;
   cursor: pointer;
   z-index: 800;
-  transition: 0.7s ease;
 }
 .bx::after {
   content: "";
@@ -320,6 +320,7 @@ header {
   left: 17%;
   width: 70%;
   height: 2px;
+  transition: 0.3s ease;
   background-color: #82269E;
 }
 .bx::before {
@@ -329,6 +330,7 @@ header {
   left: 17%;
   width: 70%;
   height: 2px;
+  transition: 0.7s ease;
   background-color: #82269E;
 }
 
@@ -357,7 +359,7 @@ header {
   left: 17%;
   width: 70%;
   height: 2px;
-  transform: rotate(-45deg);
+  transform: rotate(-405deg);
   background-color: #82269E;
 }
 
@@ -371,6 +373,7 @@ header {
   opacity: 0;
   pointer-events: none;
   transform: translate3d(0, -100px, 0);
+  transition: 0.3s ease;
 }
 
 .active-menu-mobile {

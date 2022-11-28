@@ -36,6 +36,7 @@ header{
     justify-content: center;
     align-items: center;
 
+    z-index: 800;
     background-color: red;
 }
 //DESKTOP
@@ -184,7 +185,6 @@ header{
     position: relative;
     cursor: pointer;
     z-index: 800;
-    transition: .7s ease;
 
     &::after{ //hamburguer
         content: '';
@@ -194,6 +194,7 @@ header{
 
         width: 70%;
         height: 2px;
+        transition: .3s ease;
 
         background-color: $primary-normal;
     }
@@ -206,6 +207,7 @@ header{
 
         width: 70%;
         height: 2px;
+        transition: .7s ease;
 
         background-color: $primary-normal;
     }
@@ -245,7 +247,7 @@ header{
             width: 70%;
             height: 2px;
     
-            transform: rotate(-45deg);
+            transform: rotate(-405deg);
     
             background-color: $primary-normal;
     }
@@ -265,6 +267,7 @@ header{
    pointer-events: none;
 
    transform: translate3d(0,-100px,0);
+   transition: .3s ease;
 
 }
 
