@@ -140,6 +140,181 @@ a:hover {
   box-shadow: 0px 100px 94px rgba(0, 0, 0, 0.17), 0px 41.7776px 39.271px rgba(0, 0, 0, 0.122205), 0px 22.3363px 20.9961px rgba(0, 0, 0, 0.101338), 0px 12.5216px 11.7703px rgba(0, 0, 0, 0.085), 0px 6.6501px 6.2511px rgba(0, 0, 0, 0.0686618), 0px 2.76726px 2.60122px rgba(0, 0, 0, 0.0477948);
 }
 
+.s-0 {
+  margin: 0;
+  padding: 0;
+}
+
+.m-1 {
+  margin: 8px;
+}
+
+.m-2 {
+  margin: 16px;
+}
+
+.m-3 {
+  margin: 48px;
+}
+
+.m-4 {
+  margin: 72px;
+}
+
+.m-5 {
+  margin-top: 128px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mt-3 {
+  margin-top: 48px;
+}
+
+.mt-4 {
+  margin-top: 72px;
+}
+
+.mt-5 {
+  margin-top: 128px;
+}
+
+.mr-1 {
+  margin-right: 8px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mr-3 {
+  margin-right: 48px;
+}
+
+.mr-4 {
+  margin-right: 72px;
+}
+
+.mr-5 {
+  margin-right: 128px;
+}
+
+.ml-1 {
+  margin-left: 8px;
+}
+
+.ml-2 {
+  margin-left: 16px;
+}
+
+.ml-3 {
+  margin-left: 48px;
+}
+
+.ml-4 {
+  margin-left: 72px;
+}
+
+.ml-5 {
+  margin-left: 128px;
+}
+
+.ml-1 {
+  margin-left: 8px;
+}
+
+.ml-2 {
+  margin-left: 16px;
+}
+
+.ml-3 {
+  margin-left: 48px;
+}
+
+.ml-4 {
+  margin-left: 72px;
+}
+
+.ml-5 {
+  margin-left: 128px;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 48px;
+}
+
+.mb-4 {
+  margin-bottom: 72px;
+}
+
+.mb-5 {
+  margin-bottom: 128px;
+}
+
+.mx-1 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.mx-2 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mx-3 {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.mx-4 {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
+.mx-5 {
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.my-1 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.my-2 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.my-3 {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.my-4 {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
+.my-5 {
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
 html {
   scroll-behavior: smooth;
 }
